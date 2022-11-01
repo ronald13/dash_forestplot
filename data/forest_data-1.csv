@@ -1,0 +1,19 @@
+﻿first,second,hazard_ratio,ci,type,subtype,num_arm1,num_arm2
+FEL,SECEL,,,All population,All population,,
+FEL,SECEL,0.76,"(0.65 ,0.87)",All population,All patients,1572,1137
+FEL,SECEL,,,Age group,Age group,,
+FEL,SECEL,1.29,"(0.58 ,2.89)",Age group,Age group 18-49 y,44,34
+FEL,SECEL,0.85,"(0.67 ,1.08)",Age group,Age group 50-64 y,437,329
+FEL,SECEL,0.72,"(0.57 ,0.9)",Age group,Age group 65-74 y,532,394
+FEL,SECEL,0.69,"(0.52 ,0.91)",Age group,Age group ≥ 75 y,559,380
+FEL,SECEL,,,Gender,Gender,,
+FEL,SECEL,0.11,"(0.01 ,0.95)",Gender,Male,17,12
+FEL,SECEL,0.77,"(0.66 ,0.88)",Gender,Female,1555,1125
+FEL,SECEL,,,Race,Race,,
+FEL,SECEL,0.79,"(0.67 ,0.94)",Race,"Race, White",1063,766
+FEL,SECEL,0.44,"(0.27 ,0.7)",Race,"Race, Black",134,96
+FEL,SECEL,0.78,"(0.58 ,1.06)",Race,"Race, Other",375,274
+FEL,SECEL,,,Type of practice,Type of practice,,
+FEL,SECEL,0.78,"(0.67 ,0.9)",Type of practice,Community practice,1449,1048
+FEL,SECEL,0.52,"(0.31 ,0.86)",Type of practice,Academic practice,123,89
+
