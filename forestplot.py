@@ -90,9 +90,6 @@ class Forest():
                 hoverlabel_bgcolor='#ffffff'
             ))
 
-
-
-
         fig_forest.add_trace(
             go.Scatter(
                 x=df['hazard_ratio'][::-1],
