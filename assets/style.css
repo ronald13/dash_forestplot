@@ -118,38 +118,27 @@ table tbody tr th:last-child(){
 .page-number{
     font-size: 12px;
     /* font-family:'sans-serif'; */
-
-}
-/* hide arrow on barcharts(like hoverinfo) */
-.nsewdrag, .drag{
-    display:none;
-}
-.tr_items{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    padding:10px 0;
-    width:100%;
-
-}
-.tr_item{
-    font-size:14px;
-    font-weight:700;
-    color:#000;
-    width:100%;
-}
-tbody .dash-header, tbody .dash-cell{
-    background-color:transparent!Important;
 }
 
-.previous-next-container button, .previous-next-container .current-page-container input{
-    background-color:transparent!Important;
-     border-bottom:solid transparent 1px !important
+.bg{
+    fill:transparent!Important;
+}
+.xy .points .point,
+.xy2 .points .point,
+.xy4 .points .point{
+    fill:transparent!Important;
+}
 
+
+.xy3 .points .point{
+    fill:#fff!Important;
 }
-.current-page-shadow {
-    border-bottom:none!Important;
+
+.xy3 .errorbar .xerror {
+    stroke: #fff!Important;
 }
+
+
 .table_name{
     font-weight:600;
     margin: 0 0 10px 0;
@@ -222,4 +211,32 @@ tr:hover{
 .themeToggle label{
     background:none!Important;
     border:2px solid #cfdad9;
+}
+
+
+.xy3 .points .point{
+    fill:var(--textDefault)!Important;
+}
+
+.xy4 .errorbar .xerror {
+    stroke: var(--textDefault)!Important;
+}
+
+.xy .yaxislayer-above{
+    display:none;
+}
+
+.yaxislayer-above text, .y2tick text, .y3tick text, .y5tick text, .y4tick text, .annotation-text, .xaxislayer-above .xtick text{
+    fill:var(--textDefault)!Important;
+}
+
+ .xaxislayer-above .ticks{
+    fill:var(--textDefault)!Important;
+    stroke:var(--textDefault)!Important;
+}
+.shapelayer path[data-index="1"]{
+    stroke:var(--textDefault)!Important;
+}
+.zerolinelayer{
+    display:none;
 }
