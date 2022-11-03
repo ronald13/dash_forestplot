@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+
+}
+#_dash-app-content{
+    width:1020px;
+    height:100vh;
+    margin:0 auto;
+}
+.table2x{
+    flex-basis:50%;
+    width:100%;
+}
+
+h1{
+    font-weight:700;
+    font-size:48px;
+}
+p{
+    font-size:14px;
+    margin:0;
+}
+.dash__header p{
+    font-size:14px;
+    margin:10px 0 20px 0;
+    width:50%;
+
+}
+.dropdown{
+    min-width:200px;
+}
+
+.dash__header {
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    width:100%;
+}
+.dash__header .description{
+    font-weight:400;
+    margin: 10px 0 20px 0;
+}
+
+.dash__wrapper{
+    display:flex;
+    position:relative;
+    flex-direction:column;
+    font-family: 'Poppins', sans-serif;
+    padding:30px 30px;
+    min-height: 100%;
+}
+tbody{
+ font-family: 'Poppins', sans-serif;
+}
+
+.dash__graph_block{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.main-svg{
+    background:transparent!Important;
+}
+
+bglayer{
+    fill:rgba(0, 0, 0, 0);
+}
+.bglayer .bg{
+    fill:rgba(0, 0, 0, 0)!Important;
+    fill-opacity:0;
+}
+.cell-table{
+    width:100%;
+}
+.cell-table tr{
+    height:42px!Important;
+}
+.cell-table tr .column-0 p a{
+    color:#0973c0!Important;
+}
+.cell-table tr .column-0 p{
+    opacity:0.8;
+}
+.dash-table-container{
+    width:100%;
+}
+table tbody tr th:last-child(){
+        width:300px;
+        max-width:300px;
+}
+.cell-markdown p{
+    padding:0;
+    margin:0;
+}
+.cell-markdown p a{
+    text-decoration:None;
+    color:#0973c0;
+}
+.dash-cell-value{
+    /* font-family:'sans-serif'; */
+    font-size: 13px;
+}
+.column-header-name{
+    font-size: 14px;
+    /* font-family:'sans-serif'; */
+    color:#000;
+}
+.cell--selected, .focused{
+    background-color: white!Important;
+    border-bottom: 1px solid rgb(224, 224, 224)!Important;
+    border-top: 1px solid rgb(224, 224, 224)!Important;
+    border 1px solid rgb(224, 224, 224)
+}
+.dash-cell{
+    border-bottom: 1px solid rgb(224, 224, 224)!Important;
+}
+.page-number{
+    font-size: 12px;
+    /* font-family:'sans-serif'; */
+
+}
+/* hide arrow on barcharts(like hoverinfo) */
+.nsewdrag, .drag{
+    display:none;
+}
+.tr_items{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:10px 0;
+    width:100%;
+
+}
+.tr_item{
+    font-size:14px;
+    font-weight:700;
+    color:#000;
+    width:100%;
+}
+tbody .dash-header, tbody .dash-cell{
+    background-color:transparent!Important;
+}
+
+.previous-next-container button, .previous-next-container .current-page-container input{
+    background-color:transparent!Important;
+     border-bottom:solid transparent 1px !important
+
+}
+.current-page-shadow {
+    border-bottom:none!Important;
+}
+.table_name{
+    font-weight:600;
+    margin: 0 0 10px 0;
+}
+
+.theme__switcher{
+    position:absolute;
+    right:30px;
+    top:30px;
+}
+/* colors variables settings */
+
+:root {
+    --bgColor: #fff;
+  	--textDefault: #000;
+    --primary: #0B4CFF;
+    --secondary: #FF0B70;
+    --terciary: #00BA5B;
+}
+
+:root[data-theme='dark'] {
+	--bgColor: #161A1D;
+  	--textDefault: #fff;
+    --primary: #ACC2FF;
+    --secondary: #FFAFD0;
+    --terciary: #86E1B3;
+
+}
+
+/* colors variables using examples */
+
+body {
+  background: var(--bgColor);
+  color: var(--textDefault);
+}
+
+.classNameExample {
+	background: var(--terciary);
+    border: 1px solid var(--secondary);
+}
+tr:hover{
+    background-color: transparent!Important;
+}
+
+.column-header-name{
+    color: var(--textDefault);
+}
+
+.svg-inline--fa path{
+    fill: var(--textDefault);
+}
+
+.current-page-container input{
+    display:none!Important;
+    border:none!Important!
+}
+
+.current-page-container .current-page-shadow{
+    color: var(--textDefault)!Important;
+}
+
+.themeToggle label:after{
+    content:"\263D"!Important;
+}
+
+:root[data-theme='dark'] .themeToggle label:after{
+    content:"\2600"!Important;
+}
+
+.themeToggle label{
+    background:none!Important;
+    border:2px solid #cfdad9;
+}
